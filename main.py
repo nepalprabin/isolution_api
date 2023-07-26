@@ -5,10 +5,6 @@ from tensorflow import keras
 
 st.title('Problem Rating Predictor')
 
-st.write("""
-         ### Enter your parameters below to predict the problem ratings
-         """)
-
 # Load models
 identification_model = keras.models.load_model('models/identification_model.h5')
 resolution_model = keras.models.load_model('models/resolution_model.h5')

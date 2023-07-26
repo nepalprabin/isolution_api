@@ -1,9 +1,10 @@
 numpy
 pandas
-sklearn
+scikit-learn
 fastapi
 uvicorn
 streamlit
 python-multipart
 tensorflow
 keras
+gunicorn
